@@ -131,10 +131,12 @@ LOCALES={"es":"es_AR.UTF-8"}
 POSTS = (
     ("posts/*.rst", "posts", "post.tmpl"),
     ("posts/*.txt", "posts", "post.tmpl"),
+    ("posts/*.t2t", "posts", "post.tmpl"),
 )
 PAGES = (
     ("stories/*.rst", "stories", "story.tmpl"),
     ("stories/*.txt", "stories", "story.tmpl"),
+    ("stories/*.t2t", "stories", "story.tmpl"),
 )
 
 ADDITIONAL_METADATA = {
