@@ -138,8 +138,7 @@ PAGES = (
 )
 
 ADDITIONAL_METADATA = {
-    'author': '23e1995',
-    'nocomments': 'False'
+    'author': '23e1995'
 }
 
 # One or more folders containing files to be copied as-is into the output.

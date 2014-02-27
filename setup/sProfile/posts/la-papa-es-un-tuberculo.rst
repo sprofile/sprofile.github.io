@@ -5,7 +5,6 @@
 .. link: 
 .. description: 
 .. type: text
-.. nocomments: False
 .. author: 23e1995
 
 Emmm bueno ahí va, es un chiste que me conto mi abuelo un par (en realidad un poco mas de un par..) de veces...
