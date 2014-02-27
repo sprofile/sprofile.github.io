@@ -239,6 +239,7 @@ ARCHIVE_FILENAME = "archivo.html"
 # plugin (`nikola install_plugin ping`).
 # To do manual deployment, set it to []
 DEPLOY_COMMANDS = [
+	'nikola build',
 	'cd /home/sebastian/Proyects/sprofile.github.io',
 	'git add -A',
 	'git commit -m "Changes"',
