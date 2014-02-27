@@ -4,10 +4,10 @@ UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 9
-_modified_time = 1393465736.629439
+_modified_time = 1393465736.605181
 _enable_loop = True
-_template_filename = u'/home/sebastian/Proyects/sprofile.github.io/setup/local/lib/python2.7/site-packages/nikola/data/themes/bootstrap3/templates/list.tmpl'
-_template_uri = 'list.tmpl'
+_template_filename = u'/home/sebastian/Proyects/sprofile.github.io/setup/local/lib/python2.7/site-packages/nikola/data/themes/bootstrap3/templates/list_post.tmpl'
+_template_uri = 'list_post.tmpl'
 _source_encoding = 'utf-8'
 _exports = [u'content']
 
@@ -29,7 +29,8 @@ def render_body(context,**pageargs):
         __M_locals = __M_dict_builtin(pageargs=pageargs)
         def content():
             return render_content(context._locals(__M_locals))
-        items = context.get('items', UNDEFINED)
+        date_format = context.get('date_format', UNDEFINED)
+        posts = context.get('posts', UNDEFINED)
         title = context.get('title', UNDEFINED)
         __M_writer = context.writer()
         # SOURCE LINE 2
@@ -50,7 +51,8 @@ def render_content(context,**pageargs):
     try:
         def content():
             return render_content(context)
-        items = context.get('items', UNDEFINED)
+        date_format = context.get('date_format', UNDEFINED)
+        posts = context.get('posts', UNDEFINED)
         title = context.get('title', UNDEFINED)
         __M_writer = context.writer()
         # SOURCE LINE 3
@@ -59,12 +61,14 @@ def render_content(context,**pageargs):
         __M_writer(unicode(title))
         __M_writer(u'</h1>\n        <ul class="list-unstyled">\n')
         # SOURCE LINE 8
-        for text, link in items:
+        for post in posts:
             # SOURCE LINE 9
             __M_writer(u'            <li><a href="')
-            __M_writer(unicode(link))
-            __M_writer(u'">')
-            __M_writer(unicode(text))
+            __M_writer(unicode(post.permalink()))
+            __M_writer(u'">[')
+            __M_writer(unicode(post.formatted_date(date_format)))
+            __M_writer(u'] ')
+            __M_writer(unicode(post.title()))
             __M_writer(u'</a>\n')
         # SOURCE LINE 11
         __M_writer(u'        </ul>\n        </div>\n        <!--End of body content-->\n')
