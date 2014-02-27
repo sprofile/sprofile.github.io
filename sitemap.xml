@@ -5,7 +5,11 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>http://sprofile.github.io/archive.html</loc>
+  <loc>http://sprofile.github.io/2014/index.html</loc>
+  <lastmod>2014-02-26</lastmod>
+ </url>
+ <url>
+  <loc>http://sprofile.github.io/archivos.html</loc>
   <lastmod>2014-02-26</lastmod>
  </url>
  <url>
@@ -26,6 +30,10 @@
  </url>
  <url>
   <loc>http://sprofile.github.io/listings/index.html</loc>
+  <lastmod>2014-02-26</lastmod>
+ </url>
+ <url>
+  <loc>http://sprofile.github.io/posts/primero.html</loc>
   <lastmod>2014-02-26</lastmod>
  </url>
  <url>
