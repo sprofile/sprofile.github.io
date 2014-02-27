@@ -238,7 +238,13 @@ ARCHIVE_FILENAME = "archivo.html"
 # And then do a backup, or run `nikola ping` from the `ping`
 # plugin (`nikola install_plugin ping`).
 # To do manual deployment, set it to []
-# DEPLOY_COMMANDS = []
+DEPLOY_COMMANDS = [
+	'cd /home/sebastian/Proyects/sprofile.github.io',
+	'git add -A',
+	'git commit -m "Changes"',
+	'git push',
+	'cd /home/sebastian/Proyects/sprofile.github.io/setup/sProfile'
+]
 
 # Where the output site should be located
 # If you don't use an absolute path, it will be considered as relative
