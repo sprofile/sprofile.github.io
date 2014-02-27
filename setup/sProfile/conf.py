@@ -15,7 +15,7 @@ SITE_URL = "http://sprofile.github.io/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://getnikola.com/"
 BLOG_EMAIL = "23e1995@outlook.com"
-BLOG_DESCRIPTION = "El WeBlog de Sbstnbrstry & Sntgblsc."
+BLOG_DESCRIPTION = "El weBlog de Sbstnbrstry & Sntgblsc."
 
 # Nikola is multilingual!
 #
@@ -399,7 +399,7 @@ COMMENT_SYSTEM_ID = "sprofile"
 # Enable comments on story pages?
 # COMMENTS_IN_STORIES = False
 # Enable comments on picture gallery pages?
-# COMMENTS_IN_GALLERIES = False
+COMMENTS_IN_GALLERIES = True
 
 # What file should be used for directory indexes?
 # Defaults to index.html
@@ -478,6 +478,8 @@ COMMENT_SYSTEM_ID = "sprofile"
 # done in the code, hope you don't mind ;-)
 # MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite']
 
+SOCIAL_BUTTONS_CODE=""
+
 # Social buttons. This is sample code for AddThis (which was the default for a
 # long time). Insert anything you want here, or even make it empty.
 # SOCIAL_BUTTONS_CODE = """
@@ -495,10 +497,10 @@ COMMENT_SYSTEM_ID = "sprofile"
 # """
 
 # Hide link to source for the posts?
-# HIDE_SOURCELINK = False
+HIDE_SOURCELINK = True
 # Copy the source files for your pages?
 # Setting it to False implies HIDE_SOURCELINK = True
-# COPY_SOURCES = True
+COPY_SOURCES = False
 
 # Modify the number of Post per Index Page
 # Defaults to 10

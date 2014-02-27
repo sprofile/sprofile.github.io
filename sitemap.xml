@@ -6,19 +6,15 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://sprofile.github.io/2014/index.html</loc>
-  <lastmod>2014-02-26</lastmod>
+  <lastmod>2014-02-27</lastmod>
  </url>
  <url>
   <loc>http://sprofile.github.io/archivo.html</loc>
-  <lastmod>2014-02-26</lastmod>
- </url>
- <url>
-  <loc>http://sprofile.github.io/archivos.html</loc>
-  <lastmod>2014-02-26</lastmod>
+  <lastmod>2014-02-27</lastmod>
  </url>
  <url>
   <loc>http://sprofile.github.io/categories/chiste-del-abuelo.html</loc>
-  <lastmod>2014-02-26</lastmod>
+  <lastmod>2014-02-27</lastmod>
  </url>
  <url>
   <loc>http://sprofile.github.io/categories/chiste-del-abuelo.xml</loc>
@@ -26,35 +22,35 @@
  </url>
  <url>
   <loc>http://sprofile.github.io/categories/index.html</loc>
-  <lastmod>2014-02-26</lastmod>
+  <lastmod>2014-02-27</lastmod>
  </url>
  <url>
   <loc>http://sprofile.github.io/galleries/index.html</loc>
-  <lastmod>2014-02-26</lastmod>
+  <lastmod>2014-02-27</lastmod>
  </url>
  <url>
   <loc>http://sprofile.github.io/galleries/rss.xml</loc>
-  <lastmod>2014-02-26</lastmod>
+  <lastmod>2014-02-27</lastmod>
  </url>
  <url>
   <loc>http://sprofile.github.io/index.html</loc>
-  <lastmod>2014-02-26</lastmod>
+  <lastmod>2014-02-27</lastmod>
  </url>
  <url>
   <loc>http://sprofile.github.io/listings/index.html</loc>
-  <lastmod>2014-02-26</lastmod>
+  <lastmod>2014-02-27</lastmod>
  </url>
  <url>
   <loc>http://sprofile.github.io/posts/la-papa-es-un-tuberculo.html</loc>
-  <lastmod>2014-02-26</lastmod>
+  <lastmod>2014-02-27</lastmod>
  </url>
  <url>
   <loc>http://sprofile.github.io/posts/primero.html</loc>
-  <lastmod>2014-02-26</lastmod>
+  <lastmod>2014-02-27</lastmod>
  </url>
  <url>
   <loc>http://sprofile.github.io/rss.xml</loc>
-  <lastmod>2014-02-26</lastmod>
+  <lastmod>2014-02-27</lastmod>
  </url>
  <url>
   <loc>http://sprofile.github.io/setup/lib/python2.7/site-packages/nikola/plugins/task/localsearch/files/tipue_search.html</loc>
