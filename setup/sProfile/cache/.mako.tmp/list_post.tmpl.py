@@ -4,10 +4,10 @@ UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 9
-_modified_time = 1393466904.220459
+_modified_time = 1393468196.925078
 _enable_loop = True
 _template_filename = u'/home/sebastian/Proyects/sprofile.github.io/setup/local/lib/python2.7/site-packages/nikola/data/themes/bootstrap3/templates/list_post.tmpl'
-_template_uri = 'list_post.tmpl'
+_template_uri = u'list_post.tmpl'
 _source_encoding = 'utf-8'
 _exports = [u'content']
 
