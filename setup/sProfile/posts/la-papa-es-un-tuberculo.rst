@@ -11,5 +11,4 @@ Emmm bueno ahí va, es un chiste que me conto mi abuelo un par (en realidad un p
 
 	No es lo mismo decir que la papa es un tubérculo a decir que ver tu culo es una papa.
 
-
 Jajaj..
