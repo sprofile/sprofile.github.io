@@ -82,7 +82,7 @@ TRANSLATIONS_PATTERN = "{path}.{ext}.{lang}"
 # You should provide a key-value pair for each used language.
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ('/archivos.html', 'Archivos'),
+        ('/archivo.html', 'Archivo'),
         ('/categories/index.html', 'Tags'),
         ('/rss.xml', 'RSS'),
     ),
@@ -200,7 +200,7 @@ COMPILERS = {
 # output / TRANSLATION[lang] / ARCHIVE_PATH / YEAR / index.html
 # output / TRANSLATION[lang] / ARCHIVE_PATH / YEAR / MONTH / index.html
 # ARCHIVE_PATH = ""
-ARCHIVE_FILENAME = "archivos.html"
+ARCHIVE_FILENAME = "archivo.html"
 
 # URLs to other posts/pages can take 3 forms:
 # rel_path: a relative URL to the current page/post (default)
