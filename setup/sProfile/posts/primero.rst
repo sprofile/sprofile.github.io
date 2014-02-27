@@ -5,6 +5,8 @@
 .. link: 
 .. description: 
 .. type: text
+.. nocomments: False
+.. author: 23e1995
 
 Estas viendo esto? Entonces funciona!!
 
