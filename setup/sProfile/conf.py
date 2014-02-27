@@ -84,6 +84,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ('/archivo.html', 'Archivo'),
         ('/categories/index.html', 'Tags'),
+        ('/galleries/index.html', 'Galería'),
         ('/rss.xml', 'RSS'),
     ),
 }
